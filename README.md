@@ -40,7 +40,23 @@ The following Python libraries are used in this project:
 1. Navigate to the project directory:
     ```bash
         cd ML_SVM
-3. Install the required dependencies:
+2. Create a virtual environment
+
+    ```bash
+    python -m venv myenv
+    ```
+
+3. Activate the virtual environment
+
+    - On Windows:
+      ```bash
+      myenv\Scripts\activate
+      ```
+    - On macOS and Linux:
+      ```bash
+      source myenv/bin/activate
+      ```
+4. Install the required dependencies:
     ```bash
         pip install -r requirements.txt
 4. Explore the labs and projects in the respective directories.
